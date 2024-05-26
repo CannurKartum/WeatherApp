@@ -1,30 +1,36 @@
-#Weather App with MVI Clean Architecture using Jetpack Compose 
+# Weather App with MVI Clean Architecture using Jetpack Compose
 
-Welcome to the Weather App project! This app is built using the Model-View-Intent (MVI) pattern and follows clean architecture principles. It leverages Jetpack Compose for the UI and the OpenWeather API for weather data.
+This app is built using the Model-View-Intent (MVI) pattern and follows clean architecture principles. It leverages Jetpack Compose for the UI and the OpenWeather API for weather data.
 
-##Features
+## Features
 
-MVI Architecture: Ensures unidirectional data flow and easy state management.
-Jetpack Compose: Modern toolkit for building native Android UIs.
-OpenWeather API: Fetches real-time weather data.
-Clean Architecture: Separates concerns with well-defined layers.
+- **MVI Architecture**: Ensures unidirectional data flow and easy state management.
+- **Jetpack Compose**: Modern toolkit for building native Android UIs.
+- **OpenWeather API**: Fetches real-time weather data.
+- **Clean Architecture**: Separates concerns with well-defined layers.
 
-##Project Structure
+## Project Structure
 
-data: Contains data sources, repositories, and models.
-domain: Contains use cases and domain models.
-presentation: Contains the UI layer (Jetpack Compose) and ViewModels.
+- **data**: Contains data sources, repositories, and models.
+- **domain**: Contains use cases and domain models.
+- **presentation**: Contains the UI layer (Jetpack Compose) and ViewModels.
 
+### Key Classes
 
-##Key Classes
-WeatherViewModel: Handles the business logic and state management.
-WeatherRepository: Fetches weather data from the API.
-WeatherScreen: Composable function displaying weather information.
+- **WeatherViewModel**: Handles the business logic and state management.
+- **WeatherRepository**: Fetches weather data from the API.
+- **WeatherScreen**: Composable function displaying weather information.
 
-##Usage
-Home Screen: Displays current weather information based on the user's location.
-Search Functionality: Allows users to search for weather in different cities.
-Settings: Customize units and other preferences.
+## Usage
 
+1. **Home Screen**: Displays current weather information based on the user's location.
+2. **Search Functionality**: Allows users to search for weather in different cities.
+3. **Settings**: Customize units and other preferences.
 
-For more details, watch the full tutorial on [Youtube](https://www.youtube.com/watch?v=eAbKK7JNxCE) and follow along with the step-by-step guide​
+---
+## Acknowledgments
+
+- Thanks to the creators of the tutorial for guiding through the MVI architecture and Jetpack Compose integration.
+- Special thanks to [OpenWeather](https://openweathermap.org/) for providing the API.
+---
+For more details, watch the full tutorial on [YouTube](https://www.youtube.com/watch?v=eAbKK7JNxCE) and follow along with the step-by-step guide.
