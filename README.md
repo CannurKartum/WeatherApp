@@ -1,3 +1,7 @@
+
+![Untitled design](https://github.com/CannurKartum/WeatherApp/assets/48458722/f7083bcb-6cbf-40d9-99db-33f66b4f9a7e)
+
+
 # Weather App with MVI Clean Architecture using Jetpack Compose
 
 This app is built using the Model-View-Intent (MVI) pattern and follows clean architecture principles. It leverages Jetpack Compose for the UI and the OpenWeather API for weather data.
